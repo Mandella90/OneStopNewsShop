@@ -1,0 +1,86 @@
+* {
+margin: 0;
+padding: 0;
+background-color: #EFEFEF;
+font-family: 'Poly', serif;
+}
+
+.header-div {
+    border-bottom: 3px solid #3C3C3C;
+}
+.header-div h1 {
+    color: #3C3C3C;
+    font-size: 60px;
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+    word-spacing: 2vw;
+}
+
+.search {
+    margin: 30px;
+    text-align: center;
+}
+#inputButton {
+    font-size: 32px;
+    padding: 5px 15px;
+    margin-right: 25px;
+    background-color: darkgray;
+}
+#inputButton:active {
+background-color: aqua;
+}
+#inputText {
+    font-size: 32px;
+    padding: 5px;
+}
+
+
+.content {
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    max-width: 1700px;
+}
+
+.news-source-div {
+    max-width: 760px;
+    min-width: 600px;
+    margin: auto;
+    width: 45%;
+    height: fit-content;
+    margin-top: 1vw;
+}
+
+.news-source-name {
+    font-size: 32px;
+    text-align: center;
+}
+
+.ul {
+    list-style: none;
+    border: black 2px solid;
+}
+
+.li {
+    margin: 1vw;
+    font-size: 20px;
+    line-height: 1.8vw;
+    text-decoration: none;
+}
+
+.ul a {
+    text-decoration: none;
+    color: #3C3C3C;
+}
+.ul a:hover {
+    text-decoration: underline;
+    color: #3C3C3C;
+}
+.ul a:visited {
+    text-decoration: line-through;
+    color: #3C3C3C;
+}
+
+
+
+
